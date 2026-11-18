@@ -1,0 +1,108 @@
+{
+  "tuning_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "evaluation_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210
+  ],
+  "corruption": [
+    0.0,
+    0.15,
+    0.3
+  ],
+  "evaluation_radius": 0.1,
+  "radii": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "smoothing": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "learning_rates": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    0.6,
+    0.9,
+    1.2,
+    1.8
+  ],
+  "updates": 300,
+  "sizes": [
+    512,
+    512,
+    2048
+  ],
+  "representative_seed": 201,
+  "python": "3.13.5",
+  "numpy": "2.4.3",
+  "scipy": "1.15.3",
+  "machine": "Windows AMD64",
+  "settings": {
+    "gaussian": {
+      "CE": {
+        "method": "CE",
+        "rate": 0.01,
+        "strength": 0.0
+      },
+      "RobustCE": {
+        "method": "RobustCE",
+        "rate": 0.03,
+        "strength": 0.1
+      },
+      "Smoothing": {
+        "method": "Smoothing",
+        "rate": 0.03,
+        "strength": 0.2
+      }
+    },
+    "semicircles": {
+      "CE": {
+        "method": "CE",
+        "rate": 0.03,
+        "strength": 0.0
+      },
+      "RobustCE": {
+        "method": "RobustCE",
+        "rate": 0.3,
+        "strength": 0.1
+      },
+      "Smoothing": {
+        "method": "Smoothing",
+        "rate": 0.6,
+        "strength": 0.2
+      }
+    }
+  }
+}
