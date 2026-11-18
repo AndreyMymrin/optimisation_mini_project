@@ -18,5 +18,3 @@ An existing TeX installation can also compile the report with `latexmk -pdf main
 - `report_results.py` regenerates the vector PDF figures and LaTeX tables from the saved results. Rerunning the experiment overwrites the results, and rerunning this script overwrites the generated figures and tables.
 
 The initial rate grid ended at 0.60. During clean validation selection, semicircle label smoothing selected that endpoint. The final grid adds 0.90, 1.20 and 1.80 for all methods in both simulations.
-
-Before submission, replace the existing author placeholder in `main.tex` and add the member contribution statement required by the assignment.
